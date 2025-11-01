@@ -1,0 +1,11 @@
+version: '3.10'
+
+services:
+  api:
+    image: api:1.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: bash -c "cd api && python -m http.server 8000"
+    ports:
+      - "8000:8000"
