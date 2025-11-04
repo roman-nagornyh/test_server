@@ -9,3 +9,6 @@
 ```shell
     docker compose up -d
 ```
+Описание  маршутов 
+1. http://localhost:8000/companies.json - список организаций
+2. http://localhost:8000/trucks.json - список белазов
