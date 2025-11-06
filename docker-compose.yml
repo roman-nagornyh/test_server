@@ -9,3 +9,4 @@ services:
     command: bash -c "cd api && python -m http.server 8000"
     ports:
       - "8000:8000"
+
